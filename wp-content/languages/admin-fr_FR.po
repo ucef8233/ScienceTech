@@ -11,34 +11,6 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: WordPress - 5.4.x - Administration\n"
 
-#: wp-admin/js/site-health.js:274
-msgid "All site health tests have finished running."
-msgstr "Tous les tests de vérification de santé du site sont terminés."
-
-#: wp-admin/js/site-health.js:245
-msgid "Please wait..."
-msgstr "Veuillez patienter..."
-
-#: wp-admin/js/site-health.js:135
-msgid "All site health tests have finished running. There are items that should be addressed, and the results are now available on the page."
-msgstr "Tous les tests de santé du site ont fini de tourner. Il y a des éléments qui devraient être pris en charge, et les résultats sont maintenant disponible sur cette page."
-
-#: wp-admin/js/site-health.js:134
-msgid "Should be improved"
-msgstr "Peut être amélioré"
-
-#: wp-admin/js/site-health.js:130
-msgid "All site health tests have finished running. Your site is looking good, and the results are now available on the page."
-msgstr "Les vérifications de santé sont terminées. Votre site a bonne mine, et les résultats sont maintenant disponibles sur la page."
-
-#: wp-admin/js/site-health.js:129
-msgid "Good"
-msgstr "Bien"
-
-#: wp-admin/js/site-health.js:25
-msgid "Site information has been added to your clipboard."
-msgstr "Les informations du site ont été ajoutées à votre presse-papier."
-
 #: wp-admin/maint/repair.php:169
 msgid "Repair and Optimize Database"
 msgstr "Réparer et optimiser la base de données"
@@ -13958,19 +13930,3 @@ msgstr "WordPress"
 #: wp-admin/privacy.php:36 wp-admin/freedoms.php:42 wp-admin/about.php:37
 msgid "Credits"
 msgstr "Crédits"
-
-#. Author URI of the plugin
-msgid "http://ma.tt/"
-msgstr "https://ma.tt/"
-
-#. Description of the plugin
-msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
-msgstr "Ce n’est pas qu’une extension. Elle symbolise l’espoir et l’enthousiasme de toute une génération, résumé en deux mots, qu’a notamment chanté Louis Armstrong : Hello, Dolly. Une fois activée, elle affichera une ligne aléatoirement des paroles de la chanson <cite>Hello, Dolly</cite>, en haut à droite de toutes les pages de l’administration."
-
-#. Plugin URI of the plugin
-msgid "http://wordpress.org/plugins/hello-dolly/"
-msgstr "https://wordpress.org/plugins/hello-dolly/"
-
-#. Plugin Name of the plugin
-msgid "Hello Dolly"
-msgstr "Hello Dolly"
