@@ -5,7 +5,7 @@ Donate link: https://www.paypal.me/BrainstormForce
 Requires at least: 4.4
 Requires PHP: 5.4
 Tested up to: 5.5
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Create Header, Footer and Blocks for your WordPress website using Elementor Page
 
 ## Description ##
 
-Have you ever imagined you could create your website header and footer with <a href="https://elementor.com/?ref=1352">Elementor</a> for FREE?
+Have you ever imagined you could create your website header and footer with <a href="https://elementor.com/">Elementor</a> for FREE?
 
 Elementor -  Header, Footer & Blocks Template is a simple yet powerful WordPress plugin that allows you to create a layout with Elementor and set it as 
 - Header 
@@ -137,6 +137,10 @@ This same applies when you are creating your Header/Footer using this plugin.
 5. Default widgets available with Elementor – Header, Footer & Blocks.
 
 == Changelog ==
+
+= 1.5.3 =
+- Fix: Polylang plugin conflicting issue with target rules.
+- Fix: Navigation Menu - Double link attributes issue with translation plugins.
 
 = 1.5.2 =
 - Improvement: Compatibility with Polylang.
