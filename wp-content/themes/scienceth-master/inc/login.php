@@ -29,22 +29,22 @@ function validata_data($password, $username, $email, $firstname, $lastname, $con
 {
   $errors = [];
   if (!preg_match('/^[a-zA-Z0-9@_-]+$/', $username) || strlen($username) < 3) {
-    $errors[] = "username countains letters, numbers and @ and > 2 char";
+    $errors[] = "le nom d'ultilisateur doit contenir que des leres ou (@ - _)";
   }
   if (strlen($password) < 6) {
-    $errors[] = "password must be > 6 character";
+    $errors[] = "votre mots de passe doit contenir au moin 6 carataire";
   }
   if ($password != $confirmpassword) {
-    $errors[] = "confirmed password does not match";
+    $errors[] = "vos mots de passe ne sont pas identique";
   }
   if (!filter_var($email, FILTER_VALIDATE_EMAIL) || empty($email)) {
-    $errors[] = "email is not valid";
+    $errors[] = "veiller sesire une adress mail valide";
   }
   if (empty($firstname) || !ctype_alpha($firstname)) {
-    $errors[] = "firstname should contains letters only";
+    $errors[] = "Votre Nom ne doit contenire que des letres";
   }
   if (empty($lastname) || !ctype_alpha($lastname)) {
-    $errors[] = "lastname should contains letters only";
+    $errors[] = "Votre Prénom ne doit contenire que des letres";
   }
   return $errors;
 } // extract user information and add it to database 

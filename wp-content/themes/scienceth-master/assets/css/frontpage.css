@@ -69,6 +69,7 @@ li {
 
 .nav__part:nth-child(3) li a {
   font-size: 0.8em;
+
 }
 
 .nav__part:nth-child(2) {
@@ -79,7 +80,8 @@ li {
   align-items: center;
 }
 
-.nav__part:nth-child(2) a {
+.nav__part:nth-child(2) a,
+.nav__part:nth-child(1) a {
   color: #FECB00;
 }
 
@@ -160,6 +162,11 @@ li {
 }
 
 @media (max-width: 440px) {
+  .nav {
+    grid-template-rows: 0.5fr;
+  }
+
+
   .nav__part {
     line-height: 2.3;
   }

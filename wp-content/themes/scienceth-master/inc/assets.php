@@ -1,5 +1,5 @@
 <?php
-define('Y_VERSION', '0.0.20');
+define('Y_VERSION', '0.0.21');
 add_action('wp_enqueue_scripts', function () {
 
   wp_enqueue_style('M_bootstrap_style', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), Y_VERSION, 'all');
